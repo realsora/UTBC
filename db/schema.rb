@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2019_10_11_152822) do
     t.string "author"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "source"
   end
 
 end
